@@ -14,7 +14,7 @@ local Inventory = ClientData.get("inventory")
 -- Main GUI
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "SkaiPetSpawner"
-screenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")p
+screenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
 local mainFrame = Instance.new("Frame")
 mainFrame.Size = UDim2.new(0, 320, 0, 300)
 mainFrame.Position = UDim2.new(0.5, -160, 0.4, -150)
